@@ -1,0 +1,13 @@
+server:
+  port: 8202
+spring:
+  application:
+    name: zipkin-client-a
+  zipkin:
+    base-url: http://ZIPKIN-SERVER
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+
+
